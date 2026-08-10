@@ -7,8 +7,10 @@ int main()
     std::string string_to_guess = "aboba";
     int attempts = 6;
     char user_input = ' ';
-    while(//write your loop condition)
+
+    while(true)
     {
+        std::cout << "Hello";
         // main game loop
         // get user input
         // check if char in word
