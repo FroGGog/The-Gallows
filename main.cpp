@@ -2,20 +2,24 @@
 #include <string>
 
 
+
+
 int main()
 {
     std::string string_to_guess = "aboba";
+    // init string made of '_', size of this string equal to string_to_guess size
+    std::string string_to_play(string_to_guess.size(), '_');
     int attempts = 6;
-    char user_input = ' ';
-
-    while(true)
+    char user_choice = ' ';
+    while(attempts > 0)
     {
-        std::cout << "Hello";
-        // main game loop
         // get user input
-        // check if char in word
-        // open all chars if in word
-        // -- if char is not in word
+        std::cin >> user_choice;
+        // notice that there can be two or more same chars in string, you should open them all
+        for(size_t i = 0; i < string_to_guess.size(); ++i)
+        {
+            // something here
+        }
     }
 
     return 0;

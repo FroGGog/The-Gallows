@@ -2,7 +2,7 @@
 CXX = g++
 
 # Флаги компиляции
-CXXFLAGS = -std=c++20 -Wall -Wextra -O2
+CXXFLAGS = -std=c++23 -Wall -Wextra -O2
 
 # Цель по умолчанию
 all: main
