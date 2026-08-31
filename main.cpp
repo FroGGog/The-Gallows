@@ -12,7 +12,7 @@ int main()
     int attempts = 6;
     char user_choice = ' ';
     bool is_correct = false;
-    while(attempts > 0)
+    while(attempts > 0 && string_to_play != string_to_guess)
     {
         // get user input
         std::cin >> user_choice;
