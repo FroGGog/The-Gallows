@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
 
-
-
-
+// TODO: do smth
+// TODO FFFFFF
 int main()
 {
     std::string string_to_guess = "aboba";
